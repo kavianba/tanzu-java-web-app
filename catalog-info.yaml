@@ -4,7 +4,8 @@ metadata:
   name: tanzu-java-web-app
   annotations:
     github.com/project-slug: kavianba/tanzu-java-web-app
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/part-of=tanzu-java-web-ap'
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: production
   owner: default-team
